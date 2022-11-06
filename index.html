@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <h1 class="title">Tic Tac Toe</h1>
+    <div class="container">
+    <h2 id="player_turn" class="title">turn </h2>
+    
+    <table id="tictac_table">
+     
+        <tr class="line">
+            <td class="box" id=1 onclick=dosome(1)></td>
+            <td class="box" id=2 onclick=dosome(2)></td>
+            <td class="box" id=3 onclick=dosome(3)></td>
+   
+        </tr>
+        <tr class="line">
+            <td class="box"  id=4 onclick=dosome(4)></td>
+            <td class="box" id=5 onclick=dosome(5)></td>
+            <td class="box" id=6  onclick=dosome(6)></td>
+        </tr>
+        <tr class="line">
+            <td class="box" id=7  onclick=dosome(7)></td>
+            <td class="box" id=8  onclick=dosome(8)></td>
+            <td class="box" id=9 onclick=dosome(9)></td>
+          </tr>
+        </table>      
+      <button id="restart_button">Restart</button>
+    </div>
+      <script src="script.js"></script>
+</body>
+</html>
